@@ -45,7 +45,7 @@ int main() {
 
         }
 
-        double V = var/(N-1);
+        double V = var/N;
         vbar += V;
         fout_varianzen << V << endl;
 
