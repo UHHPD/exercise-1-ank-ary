@@ -22,7 +22,7 @@ int main() {
         var += pow((a-xbar),2);
     }
 
-    double V = var/(N-1);
+    double V = var/N;
     double sigma = sqrt(V);
 
     cout << xbar << endl;
