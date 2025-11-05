@@ -25,6 +25,8 @@ int main() {
     double V = var/(N-1);
     double sigma = sqrt(V);
 
-    cout << xbar << " and " << V << endl;
+    cout << xbar << endl;
+    cout << V << endl;
+    cout << sigma << endl;
 }
   
